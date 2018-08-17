@@ -26,12 +26,12 @@ export class MyApp {
       statusBar.styleDefault();
       splashScreen.hide();
       let config = {
-        apiKey: "AIzaSyBXGGN64RjPvQhghR9Y1mP3qBL7Gw8j7GM",
-        authDomain: "angularbooks-79eaf.firebaseapp.com",
-        databaseURL: "https://angularbooks-79eaf.firebaseio.com/",
-        projectId: "angularbooks-79eaf",
-        storageBucket: "angularbooks-79eaf.appspot.com",
-        messagingSenderId: "121353569465"
+        apiKey: "",
+        authDomain: "",
+        databaseURL: "",
+        projectId: "",
+        storageBucket: "",
+        messagingSenderId: ""
       };
       firebase.initializeApp(config);
       firebase.auth().onAuthStateChanged(
